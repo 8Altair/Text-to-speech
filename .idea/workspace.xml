@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8929bef-027a-48ec-8744-ce4832cd754d" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Attempt3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Attempt4.py" afterDir="false" />
+    <list default="true" id="b8929bef-027a-48ec-8744-ce4832cd754d" name="Changes" comment="Final version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attempt2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Attempt2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attempt2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Backup_For_Dummies_Acronis_15th_Anniversary_Edition_180816.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cover" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -51,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Attempt5">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Attempt2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Text-to-speech" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,8 +195,16 @@
       <workItem from="1679175246182" duration="791000" />
       <workItem from="1679176676387" duration="15987000" />
       <workItem from="1679235960471" duration="10777000" />
-      <workItem from="1679750220547" duration="12987000" />
+      <workItem from="1679750220547" duration="15294000" />
     </task>
+    <task id="LOCAL-00001" summary="Final version">
+      <created>1679778891588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679778891588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,10 +221,14 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Text_to_speech$Attempt3.coverage" NAME="Attempt3 Coverage Results" MODIFIED="1679235981749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_to_speech$Attempt2.coverage" NAME="Attempt2 Coverage Results" MODIFIED="1679240143622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Text_to_speech$main.coverage" NAME="main Coverage Results" MODIFIED="1679176777932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Text_to_speech$main.coverage" NAME="main Coverage Results" MODIFIED="1679784806696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_to_speech$Attempt4.coverage" NAME="Attempt4 Coverage Results" MODIFIED="1679239604615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_to_speech$Attempt5.coverage" NAME="Attempt5 Coverage Results" MODIFIED="1679778595680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

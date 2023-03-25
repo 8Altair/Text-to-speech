@@ -46,17 +46,24 @@ def save_to_mp3(text, mp3_file_path, speed=150, voice_type="male") -> None:
         voice_type (str, optional): The type of voice to use for the audio. Valid values are "male" (Microsoft David)
         and "female" (Microsoft Zira). Defaults to "male".
 
+        Raises: FileNotFoundError: If the given file path does not exist or is not accessible.
+                PermissionError: If the user does not have permission to write to the specified file path.
         Returns:
             None
     """
 
-    engine = pyttsx3.init()
-    possible_voices = engine.getProperty("voices")
-    voices = {"male": possible_voices[0], "female": possible_voices[1]}
-    engine.setProperty("rate", speed)
-    engine.setProperty("voice", voices[voice_type].id)
-    engine.save_to_file(text, mp3_file_path)
-    engine.runAndWait()
+    try:
+        engine = pyttsx3.init()
+        possible_voices = engine.getProperty("voices")
+        voices = {"male": possible_voices[0], "female": possible_voices[1]}
+        engine.setProperty("rate", speed)
+        engine.setProperty("voice", voices[voice_type].id)
+        engine.save_to_file(text, mp3_file_path)
+        engine.runAndWait()
+    except FileNotFoundError:
+        print(f"Error: The file path '{mp3_file_path}' does not exist or is not accessible.")
+    except PermissionError:
+        print(f"Error: You do not have permission to write to the file path '{mp3_file_path}'.")
 
 
 # The following code block will only execute if this script is run directly and not imported as a module
