@@ -4,7 +4,7 @@ import PyPDF2
 import pyttsx3
 
 
-def extract_text_from_pdf(pdf_file_path) -> str:
+def extract_text_from_pdf(pdf_file_path: str) -> str:
     """
         Extracts text from a PDF file located at the specified path.
 
@@ -21,13 +21,10 @@ def extract_text_from_pdf(pdf_file_path) -> str:
 
     t = ""
     try:
-        with open(pdf_file_path, 'rb') as pdf_file:
+        with open(pdf_file_path, "rb") as pdf_file:
             pdf_reader = PyPDF2.PdfReader(pdf_file)
-            number_of_pages = len(pdf_reader.pages)
-            for i in range(number_of_pages):
-                page = pdf_reader.pages[i]
-                page_text = page.extract_text()
-                t += page_text
+            pages = [page.extract_text() for page in pdf_reader.pages]
+            t = "".join(pages)
     except FileNotFoundError as e:
         print("The specified PDF file could not be found:", str(e))
     except Exception as e:
@@ -37,7 +34,7 @@ def extract_text_from_pdf(pdf_file_path) -> str:
 
 
 # Function to save text to mp3 file
-def save_to_mp3(text, mp3_file_path, speed=150, voice_type="male") -> None:
+def save_to_mp3(text: str, mp3_file_path: str, speed: int = 150, voice_type: str = "male") -> None:
     """
         Converts the given text to mp3 audio file using the specified voice and saves it to the given file path.
 
