@@ -25,12 +25,12 @@ it as an MP3 file.
 ## Functionalities
 ### General
 This Python script contains two functions and a conditional code block that allows it to be executed
-as a standalone program. The purpose of the script is to extract text from a PDF file, convert it to
-speech and save it as an mp3 audio file.
+as a standalone program. The purpose of the script is to extract text from a **PDF** file, convert it to
+speech and save it as an **mp3** audio file.
 
 ### Text extraction
 The *extract_text_from_pdf* function takes in the file path to a **PDF** file as an argument and returns
-the extracted text from the file as a string. It first opens the **PDF** file in binary mode using a __with__
+the extracted text from the file as a string. It first opens the **PDF** file in binary mode using a _with_
 statement, reads each page of the file using the **PyPDF2** module and concatenates the extracted text from
 all pages into a single string. If an error occurs while opening or reading the file, the function raises an
 appropriate exception.
@@ -39,8 +39,8 @@ appropriate exception.
 The *save_to_mp3* function takes in the text to be converted to speech, the file path to save the resulting
 **mp3** audio file, the speed at which the audio is spoken and the type of voice to use as arguments.
 The function initializes the *pyttsx3* text-to-speech engine, sets the speech rate and voice type based on the
-provided arguments, saves the text as an **mp3** audio file at the specified path using the __save_to_file__
-method, and processes the resulting audio file using the __runAndWait__ method. If an error occurs while
+provided arguments, saves the text as an **mp3** audio file at the specified path using the _save_to_file_
+method, and processes the resulting audio file using the _runAndWait_ method. If an error occurs while
 saving the file, the function raises an appropriate exception.
 
 ## License
