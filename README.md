@@ -2,12 +2,12 @@
 This is a project that aims to convert text from the PDF file to mp3 format.
 
 # Table of Contents
-- [Introduction](##introduction)
+- [Introduction](#introduction)
 - [Usage](#usage)
-- [Functionalities](##functionalities)
-  - [General](###general)
-  - [Text extraction](###textextraction)
-  - [Saving the extracted text to mp3 format](###savingtheextractedtexttomp3format)
+- [Functionalities](#functionalities)
+  - [General](#general)
+  - [Text extraction](#textextraction)
+  - [Saving the extracted text to mp3 format](#savingtheextractedtexttomp3format)
 - [License](#license)
 
 ## Introduction
