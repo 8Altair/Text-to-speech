@@ -12,7 +12,7 @@ This is a project that aims to convert text from the PDF file to mp3 format.
 
 ## Introduction
 This project is designed to extract text from a PDF file and convert it to an mp3 audio file.
-It uses PyPDF2 to extract text from the PDF and pyttsx3 to convert the text to speech and save
+It uses *PyPDF2* to extract text from the PDF and *pyttsx3* to convert the text to speech and save
 it as an MP3 file.
 
 ## Usage
@@ -52,7 +52,7 @@ to find a general way to exclude this but it is hard to achieve this.
 Additionally, it may truncate a portion of a text which is maybe important (like for example at the very end of
 the text).
 
-[^2]: This function uses the engine from the _pyttsx3_ library to convert the text to audio. This engine is
+[^2]: This function uses the engine from the *pyttsx3* library to convert the text to audio. This engine is
 free and has no limitations regarding usage unlike Google API for text-to-speech (because it uses your
 computer's resources). But, it does have limitations regarding parameters which you are allowed to set. I
 made possible to change the type of voice (male/female) and they are Microsoft's default options. For more
