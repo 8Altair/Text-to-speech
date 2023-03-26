@@ -26,7 +26,7 @@ it as an MP3 file.
 ### General
 This Python script contains two functions and a conditional code block that allows it to be executed
 as a standalone program. The purpose of the script is to extract text from a **PDF** file, convert it to
-speech and save it as an **mp3** audio file.
+speech and save it as an **mp3** audio file. It needs approximately 20 seconds to convert 30-page book.
 
 ### Text extraction[^1]
 The *extract_text_from_pdf* function takes in the file path to a **PDF** file as an argument and returns
